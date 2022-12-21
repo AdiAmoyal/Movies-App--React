@@ -1,0 +1,26 @@
+.button {
+    padding: 0.5rem 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px;
+    background-color: #92A9BD;
+    color: inherit;
+    font: inherit;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.button:hover,
+.button:active {
+    background-color: #415c74;
+}
+  
+.icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    /* margin-right: 0.5rem; */
+}
