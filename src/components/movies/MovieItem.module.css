@@ -1,0 +1,31 @@
+.item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster {
+    max-width: 100%;
+}
+
+.details{
+    width: 90%;
+    padding: 0.7rem;
+    /* margin-top: 0.5rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: large;
+}
+
+.rate {
+    background-color: #fbe9e9;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+    height: fit-content;
+    margin-left: 7px;
+}

@@ -1,0 +1,15 @@
+.menu-item {
+    background-color: #7C99AC;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: #fcf1f1;
+    font-size: large;
+    font-weight: bold;
+    /* margin-bottom: 0.4rem; */
+}
+
+.menu-item:hover {
+    background-color: #92A9BD;
+    cursor: pointer;
+}
