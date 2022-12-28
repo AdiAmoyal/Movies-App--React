@@ -2,9 +2,8 @@ import { useState } from 'react';
 
 import Header from './components/layout/Header';
 import Menu from './components/layout/menu/Menu';
-import './App.css';
-import { hover } from '@testing-library/user-event/dist/hover';
 import Movies from './components/movies/Movies';
+import './App.css';
 
 function App() {
   const [menuIsShown, setMenuIsShown] = useState(false);

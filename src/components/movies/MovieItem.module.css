@@ -1,9 +1,8 @@
 .item {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .poster {
@@ -13,9 +12,13 @@
 .details{
     width: 90%;
     padding: 0.7rem;
-    /* margin-top: 0.5rem; */
+    margin: auto;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    font-weight: bold;
 }
 
 .title {
@@ -25,7 +28,36 @@
 .rate {
     background-color: #fbe9e9;
     border-radius: 0.4rem;
-    padding: 0.2rem;
-    height: fit-content;
+    height: 2rem;
+    min-width: 2rem;
     margin-left: 7px;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #f0faf7;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    height: 80%;
+    overflow-y: scroll;
+
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.description h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #597a91;
+}
+
+
+.item:hover .description {
+    transform: translateY(0);
 }
