@@ -54,7 +54,9 @@ const Movies = () => {
     return (<Fragment>
         {/* Render top movies carusle */}
         <section className={classes.movies}>
-            {moviesList}
+            {!httpError && !isLoading && moviesList}
+            {httpError && !isLoading && <p className={classes.message}>{httpError}</p>}
+            {!httpError && isLoading && <p className={classes.message}>Loading...</p>}
         </section>
     </Fragment>);
 };

@@ -5,6 +5,7 @@
     margin-bottom: 5rem;
     padding: 1.5rem;
     position: relative;
+
     background-color: #92A9BD;
     border-radius: 7px;
     box-shadow: 0 1px 13px 7px rgba(0, 0, 0, 0.2);
@@ -12,4 +13,13 @@
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-gap: 1.5rem;
+}
+
+.message {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin: auto;
+    text-align: center;
+    color: #fbe9e9;
+    font-size: larger;
 }

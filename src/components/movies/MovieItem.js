@@ -11,10 +11,10 @@ const MovieItem = props => {
             <div className={classes.details}>
                 <div className={classes.title}>{title}</div>
                 <div className={classes.rate}>{props.rate}</div>
-            </div>
-            <div className={classes.description}>
-                <h3>{props.title}</h3>
-                <p>{props.des}</p>
+                <div className={classes.description}>
+                    <h3>{props.title}</h3>
+                    <p>{props.des}</p>
+                </div>
             </div>
         </div>
     );
