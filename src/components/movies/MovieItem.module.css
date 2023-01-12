@@ -2,10 +2,12 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .poster {
     max-width: 100%;
+    height: 24.2rem;
 }
 
 .details{
@@ -64,4 +66,31 @@
 
 .details:hover .description {
     transform: translateY(0);
+}
+
+.watchListBtn {
+    position: absolute;
+    left: 0.4rem;
+    top: 0.4rem;
+    padding-top: 0.3rem;
+
+    width: 2.6rem;
+    height: 2.6rem;
+
+    color: inherit;
+    background-color: rgba(62, 62, 62, 0.212);
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+    /* margin-top: 1rem; */
+    /* margin-right: 0.5rem; */
+}
+
+.watchListBtn:hover {
+    background-color: rgba(140, 140, 140, 0.851);
+    color: black;
 }
