@@ -11,7 +11,7 @@ const Header = props => {
             <header className={classes.header}>
                 <h1>Movies App</h1>
                 <div className={classes.actions}>
-                    <HeaderWatchListBtn />
+                    <HeaderWatchListBtn onClick={props.onShowWatchList} />
                     <HeaderCategoriesBtn onClick={props.onShowMenu} />
                 </div>
             </header>

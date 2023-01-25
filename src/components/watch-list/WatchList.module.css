@@ -1,0 +1,31 @@
+.movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+}
+  
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background-color: #658fb496;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #7C99AC;
+    border-color: #7C99AC;
+    color: #fde2e2;
+}
+
+.actions .button--alt {
+    color: #fde2e2;
+}

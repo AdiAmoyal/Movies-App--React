@@ -4,7 +4,7 @@ import classes from './HeaderWatchListBtn.module.css';
 const HeaderWatchListBtn = props => {
 
     return (
-    <button className={classes.button}>
+    <button className={classes.button} onClick={props.onClick}>
         <span className={classes.icon}>
             <WatchListIcon />
         </span>
